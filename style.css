@@ -1,67 +1,41 @@
-
-
-
 body {
-  background-color: #9b3b03;
-  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #eee;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 40px;
   text-align: center;
-  padding: 30px;
-  color: #2e7d32;
 }
 
 h1 {
   font-size: 2.5em;
-  margin-bottom: 5px;
+  color: #ffde59;
+  margin-bottom: 10px;
 }
 
-.subtitle {
-  color: #4caf50;
-  margin-bottom: 30px;
-}
-
-.item-area {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+.intro {
+  font-size: 1.1em;
   margin-bottom: 40px;
+  color: #ccc;
 }
 
-.item {
-  font-size: 50px;
-  cursor: grab;
-  padding: 10px;
-  background: #ffffff;
+.section {
+  background-color: #222;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 700px;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
 }
 
-.bin-area {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 20px;
+.section h2 {
+  color: #66ccff;
 }
 
-.bin {
-  width: 200px;
-  height: 150px;
-  background-color: #a5d6a7;
-  border: 2px dashed #2e7d32;
-  border-radius: 10px;
-  line-height: 150px;
-  font-weight: bold;
-  font-size: 18px;
-  color: #1b5e20;
-}
-
-.plastic {
-  background-color: #81d4fa;
-}
-
-.paper {
-  background-color: #fff59d;
-}
-
-.trash {
-  background-color: #ef9a9a;
+.section img {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
 }
